@@ -89,4 +89,3 @@ Crie um script que tenha uma função que receba um número e retorne:
 3. O quadrado do número.
 Utilize o número 5 para os testes. */
 
-/*Só não terminei pq não deu tempo */
