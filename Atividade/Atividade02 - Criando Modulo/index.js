@@ -2,7 +2,7 @@ import{Divisao,Soma,multiplicacao,subtração} from "./calculadora.js"
 
 console.log("Calculando elementos...")
 
-let numero1 = 52
+let numero1 = 5
 let numero2 = 20
 
 
@@ -30,3 +30,16 @@ console.log(`Divisão:${resultadoDivisao}`)
 let resultadoMultiplicacao = multiplicacao(numero1, numero2)
 
 console.log(`Multiplicão:${resultadoMultiplicacao}`)
+
+
+
+import moment from 'moment';
+
+let anonovo = moment().year()
+
+function calcularIdade(anoNascimento) {
+return anonovo - anoNascimento
+}
+const anoNascimento = 1990;
+const idade = calcularIdade(anoNascimento);
+console.log(`Idade: ${idade} anos`);
