@@ -1,10 +1,13 @@
+const prompt = require('prompt-sync')();
+
 import{Divisao,Soma,multiplicacao,subtração} from "./calculadora.js"
 
 console.log("Calculando elementos...")
 
-let numero1 = 5
+let numero1;
 let numero2 = 20
 
+numero1 = prompt("Insira o primeiro numero")
 
 let resultadoSoma = Soma(numero1, numero2)
 
