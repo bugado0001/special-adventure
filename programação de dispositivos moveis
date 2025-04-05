@@ -1,5 +1,7 @@
 npx create-expo-app@latest 04 -introdicao-react-native --template blank
-
+npm install react-native-paper
+npm install react-native-vector-icons
+react-native-safe-area-context
 
 atalho rapido: 
 rnfs - criar componente 
