@@ -1,7 +1,17 @@
-npx create-expo-app@latest 04 -introdicao-react-native --template blank
-npm install react-native-paper
-npm install react-native-vector-icons
-react-native-safe-area-context
+# Criar o novo projeto
+npx create-expo-app@latest 09-navegacao-stack --template blank
 
-atalho rapido: 
-rnfs - criar componente 
+# instalando lib de componentes paper
+npm install react-native-vector-icons react-native-safe-area-context react-native-paper
+
+# Instale a biblioteca do React Navigation
+npm install @react-navigation/native
+
+# Instale o pacote de navegação por Stack
+npm install @react-navigation/stack
+
+# Instale as dependências necessárias
+npx expo install react-native-screens react-native-safe-area-context react-native-gesture-handler
+
+# Atalho rapido: 
+rnfs - criar esqueleto de componente 
